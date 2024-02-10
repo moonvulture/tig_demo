@@ -11,3 +11,12 @@ gpgcheck = 1
 gpgkey = https://repos.influxdata.com/influxdata-archive_compat.key
 EOF
 ```
+### Install package
+```bash
+sudo yum install telegraf
+```
+### Configure telegraf.conf
+```ini
+[[outputs.prometheus_client]]
+  listen = ":9273"
+```
