@@ -66,5 +66,12 @@ show telemetry ietf subscription 101 brief
 show telemetry ietf subscription 101 detail
 show telemetry ietf subscription all
 ```
+## References
+### MDT Demo
+https://developer.cisco.com/codeexchange/github/repo/jeremycohoe/cisco-ios-xe-mdt/
+### yangsuite
+https://developer.cisco.com/docs/yangsuite/#!welcome-to-cisco-yang-suite
+https://github.com/CiscoDevNet/yangsuite
+
 
 
