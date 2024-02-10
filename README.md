@@ -66,6 +66,11 @@ show telemetry ietf subscription 101 brief
 show telemetry ietf subscription 101 detail
 show telemetry ietf subscription all
 ```
+## Install yangsuite
+### download and install
+```bash
+pip install yangsuite[core]
+```
 ## References
 ### IOS-XE 17 Config guide
 https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/prog/configuration/176/b_176_programmability_cg/m_176_prog_ietf_telemetry.html
