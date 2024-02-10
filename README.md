@@ -67,6 +67,8 @@ show telemetry ietf subscription 101 detail
 show telemetry ietf subscription all
 ```
 ## References
+### IOS-XE 17 Config guide
+https://www.cisco.com/c/en/us/td/docs/ios-xml/ios/prog/configuration/176/b_176_programmability_cg/m_176_prog_ietf_telemetry.html
 ### MDT Demo
 https://developer.cisco.com/codeexchange/github/repo/jeremycohoe/cisco-ios-xe-mdt/
 https://github.com/jeremycohoe/cisco-ios-xe-mdt/blob/master/c9300-grpc-periodic-examples.cfg
