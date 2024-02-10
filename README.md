@@ -46,3 +46,25 @@ Curl metrics
 ```bash
 curl http://localhost:9273/metrics
 ```
+## Configure gRPC on switch
+```bash
+configure terminal
+netconf-yang
+telemetry ietf subscription 100
+stream yang-push
+filter xpath /memory-ios-xe-oper:memory-statistics/memory-statistic
+update-policy periodic 1000
+encoding encode-kvgpb
+source-address 192.168.178.112
+receiver ip address 192.168.178.155 57555 protocol grpc-tcp
+end
+```
+### Notes
+```bash
+show platform software yang-management process
+show telemetry ietf subscription 101 brief
+show telemetry ietf subscription 101 detail
+show telemetry ietf subscription all
+```
+
+
