@@ -15,8 +15,21 @@ EOF
 ```bash
 sudo yum install telegraf
 ```
-### Configure telegraf.conf
+### Configure etc/telegraf/telegraf.conf
 ```ini
+# inputs for gRPC
+[[inputs.cisco_telemetry_mdt]]
+  transport = "grpc"
+  service_address = ":57555"
+
+# outputs for prometheus
 [[outputs.prometheus_client]]
   listen = ":9273"
+
+# outputs for influx
+[[outputs.influxdb_v2]]
+  urls = ["http://3.68.158.124:8086"]
+  token = "P-kpWxtJeJwftzEBZiOiaiZdtL1AGl10JBNxfsfmHT1JzI89XXcM8hy1quhzilIQcs4TuceBigqiXhleJ3GULw=="
+  organization = "superlab"
+  bucket = "MDT"
 ```
