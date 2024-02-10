@@ -69,6 +69,7 @@ show telemetry ietf subscription all
 ## References
 ### MDT Demo
 https://developer.cisco.com/codeexchange/github/repo/jeremycohoe/cisco-ios-xe-mdt/
+https://github.com/jeremycohoe/cisco-ios-xe-mdt/blob/master/c9300-grpc-periodic-examples.cfg
 ### yangsuite
 https://developer.cisco.com/docs/yangsuite/#!welcome-to-cisco-yang-suite
 https://github.com/CiscoDevNet/yangsuite
