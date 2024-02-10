@@ -33,3 +33,16 @@ sudo yum install telegraf
   organization = "superlab"
   bucket = "MDT"
 ```
+### Notes
+Test configuration file
+```bash
+telegraf --config /etc/telegraf/telegraf.conf --test
+```
+Test snmp walk
+```bash
+snmpwalk -v2c -c public 192.168.178.11 .1.3.6.1.4.1.9.2.1.58
+```
+Curl metrics
+```bash
+curl http://localhost:9273/metrics
+```
