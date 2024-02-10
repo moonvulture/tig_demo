@@ -70,6 +70,7 @@ show telemetry ietf subscription all
 ### download and install
 ```bash
 pip install yangsuite[core]
+yangsuite
 ```
 ## References
 ### IOS-XE 17 Config guide
