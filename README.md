@@ -62,6 +62,7 @@ end
 ### Notes
 ```bash
 show platform software yang-management process
+show telemetry internal connection
 show telemetry ietf subscription 101 brief
 show telemetry ietf subscription 101 detail
 show telemetry ietf subscription all
